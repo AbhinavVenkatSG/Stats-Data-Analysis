@@ -1,5 +1,4 @@
 """
-STAT72000 W26 - Screen Time, Sleep & Stress Analysis
 Visualizer Module - All plotting and saving
 """
 
@@ -24,7 +23,6 @@ class Visualizer:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
         
-        plt.style.use('seaborn-v0_8-whitegrid')
         plt.rcParams['figure.figsize'] = (10, 6)
         plt.rcParams['font.size'] = 11
     

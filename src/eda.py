@@ -1,5 +1,4 @@
 """
-STAT72000 W26 - Screen Time, Sleep & Stress Analysis
 EDA Module - Exploratory Data Analysis
 """
 
