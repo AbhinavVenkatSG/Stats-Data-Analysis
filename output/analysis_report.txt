@@ -1,54 +1,24 @@
 ============================================================
-
-
 DATA ANALYSIS
-
-
 ============================================================
 
-
-
 >>> Loading Dataset...
-
-
 Loaded: 269 rows × 22 columns
 
-
-
 ==================================================
-
-
 DATASET INFO
-
-
 ==================================================
-
-
 Shape: 269 rows × 22 columns
 
-
-
 Numeric columns (15): ['Age_Coded_Bin', 'Gender_Coded', 'Extraversion', 'Agreeableness', 'Conscientiousness', 'Neuroticism', 'Openness', 'UsageOfAppsAvg', 'SleepDurationMinutesAvg', 'SDurC', 'SDist', 'SDist_SQRT', 'SDistC', 'STime', 'WTime']
-
-
 Categorical columns (7): ['Age', 'Gender', 'Country', 'SleepingTimeAverageWeekly', 'SleepingTimeWeeklyCategory', 'WakeupTimeWeeklyAverage', 'WakeupTimeWeeklyCategory']
 
-
-
 Missing values: 39
-
-
 Duplicate rows: 0
-
-
 
 >>> Running EDA...
 
-
-
 Summary Statistics:
-
-
        Age_Coded_Bin  Gender_Coded  Extraversion  ...  SDistC   STime   WTime
 count         263.00        251.00        269.00  ...  269.00  269.00  269.00
 mean            0.55          1.59          5.92  ...    0.82    3.16    2.42
@@ -61,84 +31,145 @@ max             1.00          2.00         10.00  ...    1.00    4.00    4.00
 
 [8 rows x 15 columns]
 
-
-
 Missing values: 39
-
-
 Duplicate rows: 0
 
-
-
 Normality Tests (Shapiro-Wilk):
-
-
   Neuroticism: W=0.9434, p=1.15e-08
-
-
   UsageOfAppsAvg: W=0.932, p=8.84e-10
-
-
   SleepDurationMinutesAvg: W=0.9931, p=2.47e-01
 
+Percentile Ranges:
+  Neuroticism: {'min': 2, 'p10': 3.0, 'p25': 5.0, 'p50': 7.0, 'p75': 8.0, 'p90': 10.0, 'max': 10}
+  UsageOfAppsAvg: {'min': 64.1, 'p10': 142.018, 'p25': 190.35, 'p50': 280.6, 'p75': 387.01, 'p90': 504.92400000000004, 'max': 931.27}
+  SleepDurationMinutesAvg: {'min': 247.19, 'p10': 376.81800000000004, 'p25': 425.35, 'p50': 469.66, 'p75': 524.11, 'p90': 550.9820000000001, 'max': 698.65}
 
+Outliers (IQR method):
+  Neuroticism: 0 outliers (Q1=5.00, Q3=8.00, IQR=3.00)
+  UsageOfAppsAvg: 5 outliers (Q1=190.35, Q3=387.01, IQR=196.66)
+  SleepDurationMinutesAvg: 3 outliers (Q1=425.35, Q3=524.11, IQR=98.76)
 
-Correlation analysis:
+Group Statistics:
+  Neuroticism by Gender:
+                mean   std  count
+Gender                           
+Female          7.12  2.28    148
+Male            5.95  2.13    103
+Other           7.50  2.17      6
+Rather not say  5.50  3.54      2
+  UsageOfAppsAvg by Gender:
+                  mean     std  count
+Gender                               
+Female          317.52  149.98    148
+Male            286.59  154.70    103
+Other           389.00  192.54      6
+Rather not say  284.27  147.36      2
+  Neuroticism by Age:
+                 mean   std  count
+Age                               
+15 - 24          6.81  2.26    118
+25 - 34          6.40  2.32     92
+35 - 44          6.78  2.32     45
+45 - 54          5.88  2.03      8
+Rather not say  10.00   NaN      1
+  UsageOfAppsAvg by Age:
+                  mean     std  count
+Age                                  
+15 - 24         337.28  163.77    118
+25 - 34         286.58  143.01     92
+35 - 44         276.63  122.84     45
+45 - 54         229.16  171.49      8
+Rather not say  299.65     NaN      1
 
+Categorical Summaries:
 
-Neuroticism                1.000
-Gender_Coded               0.252
-UsageOfAppsAvg             0.204
-SDist                      0.106
-SDist_SQRT                 0.095
-STime                      0.081
-SDistC                     0.063
-Openness                   0.062
-WTime                     -0.050
-Agreeableness             -0.058
-Age_Coded_Bin             -0.069
-SDurC                     -0.111
-SleepDurationMinutesAvg   -0.119
-Extraversion              -0.192
-Conscientiousness         -0.275
-Name: Neuroticism, dtype: float64
+  Age:
+                count  percentage
+Age                              
+15 - 24           118       44.70
+25 - 34            92       34.85
+35 - 44            45       17.05
+45 - 54             8        3.03
+Rather not say      1        0.38
 
+  Gender:
+                count  percentage
+Gender                           
+Female            148       57.14
+Male              103       39.77
+Other               6        2.32
+Rather not say      2        0.77
 
+  Country:
+                count  percentage
+Country                          
+United States      93       34.57
+India              33       12.27
+United Kingdom     32       11.90
+France             26        9.67
+Canada             22        8.18
+Germany            17        6.32
+Brazil             14        5.20
+Netherlands        14        5.20
+Australia          13        4.83
+Sweden              5        1.86
+
+  SleepingTimeAverageWeekly:
+                           count  percentage
+SleepingTimeAverageWeekly                   
+11:51:17 PM                    3        1.12
+1:01:17 AM                     2        0.74
+10:56:43 PM                    2        0.74
+12:34:17 AM                    2        0.74
+11:23:00 PM                    2        0.74
+...                          ...         ...
+12:46:17 AM                    1        0.37
+11:19:51 PM                    1        0.37
+11:54:17 PM                    1        0.37
+12:00:09 AM                    1        0.37
+2:18:09 AM                     1        0.37
+
+[252 rows x 2 columns]
+
+  SleepingTimeWeeklyCategory:
+                            count  percentage
+SleepingTimeWeeklyCategory                   
+Poor Sleep Time               125       46.47
+Delayed Sleep                  77       28.62
+Regular Sleep                  53       19.70
+Early Sleep                    14        5.20
+
+  WakeupTimeWeeklyAverage:
+                         count  percentage
+WakeupTimeWeeklyAverage                   
+7:42:09 AM                   3        1.12
+7:48:43 AM                   2        0.74
+8:22:43 AM                   2        0.74
+7:51:09 AM                   2        0.74
+7:59:26 AM                   2        0.74
+...                        ...         ...
+9:02:00 AM                   1        0.37
+7:39:17 AM                   1        0.37
+6:41:51 AM                   1        0.37
+8:16:17 AM                   1        0.37
+8:03:00 AM                   1        0.37
+
+[248 rows x 2 columns]
+
+  WakeupTimeWeeklyCategory:
+                          count  percentage
+WakeupTimeWeeklyCategory                   
+Regular Wakeup               99       36.80
+Delayed Wakeup               72       26.77
+Early Wakup                  52       19.33
+Poor Wakeup                  46       17.10
 
 >>> Generating Visualizations...
-
-
   Saved: distributions.png
-
-
   Saved: boxplots.png
 
-
-  Saved: heatmap.png
-
-
-  Saved: scatter_screen_stress.png
-
-
-  Saved: scatter_sleep_stress.png
-
-
-  Saved: scatter_phone_sleep.png
-
-
-
 ============================================================
-
-
 ANALYSIS COMPLETE!
-
-
 Output saved to: output
-
-
 Report saved to: output\analysis_report.txt
-
-
 ============================================================
-
-
