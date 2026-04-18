@@ -1,0 +1,259 @@
+Age,Age_Coded_Bin,Gender,Gender_Coded,Country,Extraversion,Agreeableness,Conscientiousness,Neuroticism,Openness,UsageOfAppsAvg,SleepDurationMinutesAvg,SDurC,SDist,SDist_SQRT,SDistC,SleepingTimeAverageWeekly,SleepingTimeWeeklyCategory,STime,WakeupTimeWeeklyAverage,WakeupTimeWeeklyCategory,WTime
+25 - 34,1.0,Male,1.0,United States,6,2,8,4,4,71.65,545.09,3,0.0,0.0,0,10:59:51 PM,Regular Sleep,2,8:04:51 AM,Delayed Wakeup,3
+35 - 44,1.0,Male,1.0,United States,5,5,7,4,4,91.73,461.55,2,0.0,0.0,0,10:16:51 PM,Regular Sleep,2,5:58:43 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,Australia,4,6,8,6,9,93.38,451.49,2,0.34,0.58,1,11:04:51 PM,Delayed Sleep,3,6:36:26 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,France,3,8,6,6,9,104.45,519.27,2,0.43,0.66,1,11:11:34 PM,Delayed Sleep,3,7:50:51 AM,Regular Wakeup,2
+45 - 54,1.0,Male,1.0,Canada,5,6,5,6,6,104.86,444.89,2,5.42,2.33,1,12:28:09 AM,Poor Sleep Time,4,7:53:00 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,United States,6,7,7,8,8,106.18,559.87,3,2.9,1.7,1,12:24:34 AM,Poor Sleep Time,4,9:44:26 AM,Poor Wakeup,4
+45 - 54,1.0,Male,1.0,United Kingdom,3,7,9,8,8,117.51,580.2,3,0.0,0.0,0,9:49:00 PM,Early Sleep,1,7:29:17 AM,Regular Wakeup,2
+45 - 54,1.0,Male,1.0,United Kingdom,8,10,7,4,9,122.65,479.07,2,0.0,0.0,0,10:14:00 PM,Regular Sleep,2,6:12:51 AM,Early Wakup,1
+35 - 44,1.0,Male,1.0,Netherlands,7,7,10,6,10,124.37,578.21,3,0.03,0.17,1,9:31:51 PM,Early Sleep,1,7:10:09 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,Germany,4,6,7,6,6,135.98,523.32,2,9.82,3.13,1,1:20:00 AM,Poor Sleep Time,4,10:03:17 AM,Poor Wakeup,4
+35 - 44,1.0,Male,1.0,India,10,9,10,2,7,137.24,530.15,2,7.32,2.71,1,11:43:51 PM,Delayed Sleep,3,8:33:34 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,United States,8,5,9,4,6,138.2,451.08,2,1.96,1.4,1,12:00:43 AM,Poor Sleep Time,4,7:31:43 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,United States,6,7,9,8,6,139.07,544.54,3,0.25,0.5,1,10:47:51 PM,Regular Sleep,2,7:52:17 AM,Regular Wakeup,2
+35 - 44,1.0,Male,1.0,Netherlands,6,7,7,6,6,140.17,583.94,3,0.18,0.42,1,10:47:17 PM,Regular Sleep,2,8:31:17 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,United Kingdom,6,7,8,6,8,143.84,516.94,2,2.13,1.46,1,11:00:09 PM,Delayed Sleep,3,7:37:09 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,France,5,4,4,8,4,144.45,504.22,2,2.0,1.41,1,10:59:43 PM,Regular Sleep,2,7:24:17 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,United Kingdom,10,4,6,3,3,146.51,486.33,2,3.46,1.86,1,11:46:00 PM,Delayed Sleep,3,7:52:51 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,India,10,2,9,2,10,146.7,417.57,1,8.36,2.89,1,1:52:00 AM,Poor Sleep Time,4,8:50:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,United Kingdom,2,8,5,6,8,155.54,698.65,3,0.0,0.0,0,9:33:43 PM,Early Sleep,1,9:12:17 AM,Poor Wakeup,4
+25 - 34,1.0,Male,1.0,Sweden,7,6,5,5,8,156.71,518.11,2,5.31,2.3,1,11:28:43 PM,Delayed Sleep,3,8:07:00 AM,Delayed Wakeup,3
+35 - 44,1.0,Male,1.0,Canada,5,7,7,6,8,157.01,506.66,2,3.28,1.81,1,10:01:09 PM,Regular Sleep,2,6:27:34 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,Netherlands,6,8,8,2,6,159.92,497.65,2,4.6,2.14,1,11:59:34 PM,Delayed Sleep,3,8:17:17 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,Australia,5,7,7,4,8,162.19,346.73,1,1.16,1.08,1,12:04:17 AM,Poor Sleep Time,4,5:51:00 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,Canada,10,4,6,4,10,162.97,542.64,3,7.96,2.82,1,11:23:00 PM,Delayed Sleep,3,8:25:43 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,United Kingdom,7,8,7,5,5,163.38,484.94,2,8.6,2.93,1,11:23:00 PM,Delayed Sleep,3,7:27:43 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,United States,7,7,6,5,7,164.08,410.16,1,4.88,2.21,1,1:24:51 AM,Poor Sleep Time,4,8:15:00 AM,Delayed Wakeup,3
+45 - 54,1.0,Male,1.0,Canada,10,7,8,4,10,164.58,520.41,2,5.68,2.38,1,12:24:51 AM,Poor Sleep Time,4,9:05:09 AM,Poor Wakeup,4
+35 - 44,1.0,Male,1.0,United States,5,6,9,6,7,164.87,533.59,2,1.45,1.2,1,10:00:43 PM,Regular Sleep,2,6:54:34 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United States,8,8,9,2,10,169.0,531.48,2,3.69,1.92,1,11:54:09 PM,Delayed Sleep,3,8:45:34 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,United States,4,7,6,3,8,171.63,533.8,2,2.48,1.57,1,11:08:26 PM,Delayed Sleep,3,8:02:26 AM,Delayed Wakeup,3
+45 - 54,1.0,Male,1.0,United States,4,6,7,8,6,171.72,437.36,2,5.51,2.35,1,10:00:09 PM,Regular Sleep,2,5:17:26 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,India,8,6,3,7,10,188.32,393.08,1,8.34,2.89,1,1:49:26 AM,Poor Sleep Time,4,8:22:43 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,United Kingdom,7,8,9,3,6,189.06,480.82,2,0.0,0.0,0,10:00:51 PM,Regular Sleep,2,6:01:43 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,Germany,5,9,8,5,9,189.59,649.41,3,6.85,2.62,1,10:25:00 PM,Regular Sleep,2,9:14:17 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,India,8,6,3,7,5,191.2,439.65,2,10.06,3.17,1,11:53:17 PM,Delayed Sleep,3,8:03:34 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,United States,9,5,9,10,8,191.24,469.66,2,9.68,3.11,1,12:37:00 AM,Poor Sleep Time,4,8:26:34 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,India,5,4,6,5,6,191.3,397.59,1,5.58,2.36,1,3:13:26 AM,Poor Sleep Time,4,9:51:26 AM,Poor Wakeup,4
+25 - 34,1.0,Male,1.0,United States,6,3,8,4,10,193.29,540.59,3,0.0,0.0,0,8:59:00 PM,Early Sleep,1,5:59:17 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,India,3,8,5,7,4,198.45,436.17,2,10.88,3.3,1,11:07:26 PM,Delayed Sleep,3,6:23:17 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United Kingdom,2,5,7,7,4,201.35,541.12,3,18.79,4.33,1,12:49:34 AM,Poor Sleep Time,4,9:50:43 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,United States,6,8,5,7,10,204.76,524.43,2,0.0,0.0,0,9:35:51 PM,Early Sleep,1,6:20:17 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United Kingdom,5,5,6,8,9,213.97,563.29,3,11.32,3.36,1,10:56:43 PM,Regular Sleep,2,8:20:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,United States,6,7,9,4,7,215.61,494.62,2,10.81,3.29,1,10:39:43 PM,Regular Sleep,2,6:54:17 AM,Early Wakup,1
+35 - 44,1.0,Male,1.0,United States,3,4,8,6,5,220.05,537.9,2,29.75,5.45,1,11:09:09 PM,Delayed Sleep,3,8:07:09 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,Brazil,4,7,6,6,6,220.29,620.3,3,0.0,0.0,0,10:29:00 PM,Regular Sleep,2,8:49:34 AM,Delayed Wakeup,3
+35 - 44,1.0,Male,1.0,Canada,10,7,10,6,9,223.76,507.66,2,0.0,0.0,0,10:48:17 PM,Regular Sleep,2,7:15:51 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,United States,5,7,6,8,8,224.21,407.81,1,2.18,1.48,1,10:36:34 PM,Regular Sleep,2,5:24:43 AM,Early Wakup,1
+35 - 44,1.0,Male,1.0,France,6,8,6,7,6,228.28,484.42,2,6.91,2.63,1,11:47:26 PM,Delayed Sleep,3,7:51:43 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,Brazil,5,7,6,10,4,238.11,389.42,1,6.4,2.53,1,1:24:09 AM,Poor Sleep Time,4,7:53:17 AM,Regular Wakeup,2
+35 - 44,1.0,Male,1.0,Germany,7,7,7,8,6,242.14,429.97,2,10.51,3.24,1,11:52:34 PM,Delayed Sleep,3,7:02:34 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,India,5,7,4,6,7,243.73,443.96,2,0.14,0.37,1,10:20:51 PM,Regular Sleep,2,5:44:51 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United States,10,9,8,3,7,244.07,483.33,2,0.01,0.1,0,11:04:09 PM,Delayed Sleep,3,7:07:43 AM,Regular Wakeup,2
+35 - 44,1.0,Male,1.0,United Kingdom,4,7,5,5,9,244.34,463.19,2,13.01,3.61,1,12:15:00 AM,Poor Sleep Time,4,7:58:09 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,India,5,7,10,5,8,249.22,603.49,3,6.56,2.56,1,11:58:26 PM,Delayed Sleep,3,10:02:00 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,United States,3,6,5,8,8,253.54,541.59,3,11.07,3.33,1,12:00:09 AM,Poor Sleep Time,4,9:02:00 AM,Poor Wakeup,4
+25 - 34,1.0,Male,1.0,United States,8,7,8,5,6,260.58,430.82,2,13.28,3.64,1,1:01:17 AM,Poor Sleep Time,4,8:12:17 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,France,3,6,6,6,10,262.26,426.53,2,0.26,0.51,1,12:31:17 AM,Poor Sleep Time,4,7:38:00 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,United States,6,8,6,8,10,268.47,478.04,2,9.49,3.08,1,1:37:17 AM,Poor Sleep Time,4,9:35:17 AM,Poor Wakeup,4
+25 - 34,1.0,Male,1.0,United Kingdom,9,4,5,6,9,281.82,346.46,1,4.26,2.06,1,12:34:17 AM,Poor Sleep Time,4,6:20:43 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,Canada,6,9,8,3,8,285.22,494.12,2,1.43,1.2,1,11:34:26 PM,Delayed Sleep,3,7:48:43 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,United States,8,4,7,3,5,290.26,524.71,2,1.96,1.4,1,11:57:00 PM,Delayed Sleep,3,8:42:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,United States,6,7,5,7,6,290.39,393.1,1,2.31,1.52,1,2:41:26 AM,Poor Sleep Time,4,9:14:51 AM,Poor Wakeup,4
+25 - 34,1.0,Male,1.0,United Kingdom,3,3,5,6,5,317.51,481.19,2,0.01,0.1,0,10:28:51 PM,Regular Sleep,2,6:30:00 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United States,6,6,6,8,5,319.98,387.09,1,1.76,1.33,1,10:54:17 PM,Regular Sleep,2,5:21:51 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,India,7,9,7,3,9,321.13,549.07,3,5.31,2.3,1,11:57:09 PM,Delayed Sleep,3,9:06:34 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,United States,10,8,9,3,9,324.03,431.7,2,5.03,2.24,1,12:26:17 AM,Poor Sleep Time,4,7:38:17 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,India,2,9,5,6,5,325.78,375.91,1,12.91,3.59,1,2:23:00 AM,Poor Sleep Time,4,8:13:34 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,United States,7,9,9,3,6,334.63,467.64,2,9.8,3.13,1,12:56:09 AM,Poor Sleep Time,4,8:44:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,United States,4,7,6,8,5,339.33,435.45,2,20.6,4.54,1,12:58:43 AM,Poor Sleep Time,4,8:14:17 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,France,2,8,4,6,10,341.12,503.79,2,0.0,0.0,0,10:54:17 PM,Regular Sleep,2,7:18:00 AM,Regular Wakeup,2
+35 - 44,1.0,Male,1.0,United States,10,8,6,8,6,351.47,470.44,2,3.25,1.8,1,9:43:26 PM,Early Sleep,1,5:34:00 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United States,6,7,7,6,6,355.66,537.09,2,19.24,4.39,1,11:36:17 PM,Delayed Sleep,3,8:33:43 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,France,8,5,6,6,6,357.27,418.05,1,6.88,2.62,1,1:56:09 AM,Poor Sleep Time,4,8:54:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,India,6,7,6,7,10,376.36,430.09,2,5.06,2.25,1,1:04:43 AM,Poor Sleep Time,4,8:15:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,France,4,6,6,10,5,377.39,447.51,2,3.34,1.83,1,1:29:34 AM,Poor Sleep Time,4,8:57:26 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,India,5,5,6,10,5,377.79,344.61,1,4.91,2.22,1,2:18:09 AM,Poor Sleep Time,4,8:03:00 AM,Delayed Wakeup,3
+25 - 34,1.0,Male,1.0,India,9,8,5,9,6,383.46,386.09,1,7.1,2.66,1,2:23:51 AM,Poor Sleep Time,4,8:49:51 AM,Delayed Wakeup,3
+35 - 44,1.0,Male,1.0,Canada,3,10,7,7,3,385.33,425.54,2,18.03,4.25,1,12:53:43 AM,Poor Sleep Time,4,7:59:09 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,France,8,8,5,4,9,388.06,422.48,2,17.62,4.2,1,1:28:51 AM,Poor Sleep Time,4,8:31:26 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,India,7,7,5,8,9,393.24,487.8,2,10.8,3.29,1,11:42:17 PM,Delayed Sleep,3,7:50:17 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,United States,4,3,6,6,8,394.87,429.27,2,0.08,0.28,0,12:31:43 AM,Poor Sleep Time,4,7:40:51 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,India,2,5,3,5,6,422.71,355.94,1,2.92,1.71,1,3:04:17 AM,Poor Sleep Time,4,9:00:17 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,Netherlands,3,6,3,10,6,423.39,384.31,1,8.95,2.99,1,1:51:34 AM,Poor Sleep Time,4,8:15:51 AM,Delayed Wakeup,3
+45 - 54,1.0,Male,1.0,Brazil,3,6,6,6,8,433.69,403.88,1,3.46,1.86,1,12:39:09 AM,Poor Sleep Time,4,7:23:17 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,Sweden,3,5,5,10,8,444.52,471.71,2,18.16,4.26,1,1:00:26 AM,Poor Sleep Time,4,8:52:09 AM,Delayed Wakeup,3
+35 - 44,1.0,Male,1.0,United States,4,4,6,10,8,450.31,339.6,1,5.27,2.3,1,12:27:34 AM,Poor Sleep Time,4,6:07:34 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,United States,3,8,6,4,4,457.2,469.47,2,0.02,0.14,1,12:02:26 AM,Poor Sleep Time,4,7:52:26 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,Canada,8,6,5,9,10,461.16,411.85,1,1.41,1.19,1,12:34:26 AM,Poor Sleep Time,4,7:26:26 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,India,8,10,5,6,6,461.34,417.04,1,18.1,4.25,1,12:45:00 AM,Poor Sleep Time,4,7:42:09 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,India,6,6,6,3,6,462.12,333.75,1,15.9,3.99,1,12:52:43 AM,Poor Sleep Time,4,6:26:34 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,Germany,5,6,5,7,8,477.02,553.36,3,15.92,3.99,1,11:56:17 PM,Delayed Sleep,3,9:09:43 AM,Poor Wakeup,4
+25 - 34,1.0,Male,1.0,Brazil,6,6,4,9,10,478.39,296.67,1,0.0,0.0,0,3:02:17 AM,Poor Sleep Time,4,9:01:34 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,India,8,6,10,3,9,483.89,434.96,2,1.0,1.0,1,12:22:43 AM,Poor Sleep Time,4,7:37:34 AM,Regular Wakeup,2
+25 - 34,1.0,Male,1.0,United States,8,5,5,6,10,494.32,448.65,2,0.0,0.0,0,10:26:26 PM,Regular Sleep,2,5:55:00 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,United States,4,5,8,6,6,504.38,468.63,2,17.88,4.23,1,1:45:00 AM,Poor Sleep Time,4,9:33:43 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,United States,6,4,7,5,5,541.94,463.11,2,16.64,4.08,1,1:02:34 AM,Poor Sleep Time,4,8:45:51 AM,Delayed Wakeup,3
+15 - 24,0.0,Male,1.0,India,6,7,6,5,8,555.6,344.36,1,17.01,4.12,1,12:39:17 AM,Poor Sleep Time,4,6:23:26 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,India,7,9,6,5,7,561.46,391.0,1,2.36,1.54,1,12:53:09 AM,Poor Sleep Time,4,7:24:17 AM,Regular Wakeup,2
+15 - 24,0.0,Male,1.0,United States,4,5,9,4,9,570.05,401.44,1,0.0,0.0,0,2:33:34 AM,Poor Sleep Time,4,9:14:51 AM,Poor Wakeup,4
+15 - 24,0.0,Male,1.0,India,6,6,3,8,7,613.16,384.51,1,15.89,3.99,1,12:09:17 AM,Poor Sleep Time,4,6:34:00 AM,Early Wakup,1
+25 - 34,1.0,Male,1.0,United Kingdom,3,4,5,8,7,800.79,306.93,1,3.11,1.76,1,12:52:26 AM,Poor Sleep Time,4,5:59:34 AM,Early Wakup,1
+15 - 24,0.0,Male,1.0,India,4,4,3,10,6,931.27,299.41,1,10.38,3.22,1,12:36:26 AM,Poor Sleep Time,4,5:35:43 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,France,9,8,8,10,9,64.1,557.14,3,0.0,0.0,0,10:34:00 PM,Regular Sleep,2,7:51:09 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Germany,6,5,9,5,7,70.09,388.13,1,0.0,0.0,0,9:37:09 PM,Early Sleep,1,9:53:43 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,Australia,8,5,8,4,8,88.02,519.86,2,8.17,2.86,1,10:20:09 PM,Regular Sleep,2,6:59:34 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,France,6,9,7,4,4,88.43,514.71,2,0.0,0.0,0,11:06:09 PM,Delayed Sleep,3,7:41:09 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Australia,6,9,6,4,9,88.79,543.8,3,6.99,2.64,1,10:42:26 PM,Regular Sleep,2,7:46:26 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Brazil,6,7,5,6,6,106.11,447.62,2,0.47,0.69,1,12:23:09 AM,Poor Sleep Time,4,7:50:43 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Canada,6,5,9,7,8,110.36,411.07,1,0.0,0.0,0,11:57:00 PM,Delayed Sleep,3,6:48:17 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,United States,6,8,7,8,5,130.65,508.9,2,0.26,0.51,1,11:45:17 PM,Delayed Sleep,3,8:14:34 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,France,9,8,3,8,8,132.04,529.89,2,0.76,0.87,1,12:28:26 AM,Poor Sleep Time,4,9:18:34 AM,Poor Wakeup,4
+25 - 34,1.0,Female,2.0,Australia,6,8,8,8,6,134.94,646.69,3,2.15,1.47,1,9:59:34 PM,Early Sleep,1,8:46:00 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United States,2,7,8,5,9,135.82,577.91,3,0.1,0.32,1,11:09:00 PM,Delayed Sleep,3,8:47:09 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,Germany,5,9,8,5,9,142.48,432.39,2,1.81,1.35,1,12:22:34 AM,Poor Sleep Time,4,7:35:17 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,United Kingdom,5,8,7,7,9,143.92,375.87,1,13.82,3.72,1,1:18:09 AM,Poor Sleep Time,4,7:34:17 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Germany,2,4,7,6,7,144.08,541.71,3,0.0,0.0,0,11:10:34 PM,Delayed Sleep,3,8:12:26 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,France,10,10,7,8,10,144.6,514.77,2,2.39,1.55,1,11:51:17 PM,Delayed Sleep,3,8:26:17 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,France,5,8,7,6,9,145.22,419.43,1,7.39,2.72,1,12:03:51 AM,Poor Sleep Time,4,7:03:26 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United Kingdom,6,10,5,10,10,151.06,563.68,3,0.38,0.62,1,10:27:34 PM,Regular Sleep,2,7:51:17 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Canada,2,4,7,10,10,153.4,478.47,2,12.98,3.6,1,1:38:17 AM,Poor Sleep Time,4,9:37:00 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,United States,9,10,10,3,10,153.96,503.22,2,4.73,2.17,1,11:38:17 PM,Delayed Sleep,3,8:01:26 AM,Delayed Wakeup,3
+45 - 54,1.0,Female,2.0,Netherlands,3,9,7,3,7,154.82,562.7,3,0.0,0.0,0,9:40:34 PM,Early Sleep,1,7:03:17 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,3,7,4,8,10,161.68,502.89,2,2.71,1.65,1,11:42:00 PM,Delayed Sleep,3,8:05:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United States,7,10,6,10,9,161.7,629.01,3,0.0,0.0,0,10:13:51 PM,Regular Sleep,2,8:42:51 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United Kingdom,9,7,6,8,9,174.29,470.42,2,0.0,0.0,0,11:16:17 PM,Delayed Sleep,3,7:06:34 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Netherlands,8,7,6,4,9,174.93,548.98,3,7.45,2.73,1,11:26:34 PM,Delayed Sleep,3,8:35:26 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United Kingdom,4,8,9,9,7,175.63,433.86,2,4.02,2.0,1,12:20:26 AM,Poor Sleep Time,4,7:34:26 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United Kingdom,6,6,7,7,10,184.27,520.14,2,10.77,3.28,1,10:27:09 PM,Regular Sleep,2,7:07:09 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Canada,6,9,9,9,9,187.35,526.17,2,0.0,0.0,0,10:51:34 PM,Regular Sleep,2,7:37:43 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Netherlands,7,10,6,9,10,188.5,537.21,2,7.01,2.65,1,12:05:09 AM,Poor Sleep Time,4,9:01:43 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,United States,9,7,7,6,10,189.17,549.38,3,0.0,0.0,0,9:51:17 PM,Early Sleep,1,7:00:51 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United Kingdom,6,6,7,9,9,190.35,544.26,3,0.0,0.0,0,10:40:09 PM,Regular Sleep,2,7:45:00 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,United States,6,4,10,3,6,191.6,500.74,2,3.87,1.97,1,11:44:00 PM,Delayed Sleep,3,8:05:09 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,Germany,7,5,4,8,10,193.83,468.16,2,3.97,1.99,1,12:15:43 AM,Poor Sleep Time,4,8:04:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,India,6,6,3,7,9,195.39,403.65,1,0.71,0.84,1,2:30:43 AM,Poor Sleep Time,4,9:14:26 AM,Poor Wakeup,4
+35 - 44,1.0,Female,2.0,France,6,8,8,2,9,197.78,508.14,2,7.06,2.66,1,11:03:09 PM,Delayed Sleep,3,7:31:17 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Australia,8,9,7,3,3,199.56,445.18,2,0.0,0.0,0,10:46:26 PM,Regular Sleep,2,6:11:26 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,United States,6,9,7,9,6,202.44,454.17,2,6.89,2.62,1,12:07:51 AM,Poor Sleep Time,4,7:42:09 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Germany,3,4,7,10,5,203.29,482.38,2,0.49,0.7,1,11:51:17 PM,Delayed Sleep,3,7:53:51 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,Australia,9,6,6,9,9,209.75,473.85,2,4.51,2.12,1,11:12:09 PM,Delayed Sleep,3,7:05:51 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United Kingdom,6,8,5,5,4,211.85,541.45,3,1.67,1.29,1,10:08:26 PM,Regular Sleep,2,7:09:51 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,France,9,8,5,7,7,213.79,480.77,2,11.94,3.46,1,12:38:09 AM,Poor Sleep Time,4,8:39:09 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,United Kingdom,4,6,5,10,6,218.49,540.13,2,8.57,2.93,1,10:55:00 PM,Regular Sleep,2,7:54:51 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United Kingdom,10,8,5,4,10,222.77,533.45,2,14.54,3.81,1,11:06:17 PM,Delayed Sleep,3,7:59:51 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Germany,9,5,3,9,6,223.85,479.58,2,5.5,2.35,1,12:15:34 AM,Poor Sleep Time,4,8:15:17 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,Canada,6,8,4,4,7,230.05,573.14,3,8.34,2.89,1,10:40:17 PM,Regular Sleep,2,9:14:09 AM,Poor Wakeup,4
+25 - 34,1.0,Female,2.0,United States,3,10,9,10,6,231.65,462.56,2,5.15,2.27,1,12:14:51 AM,Poor Sleep Time,4,7:57:43 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,United Kingdom,6,8,8,2,7,233.01,455.41,2,1.08,1.04,1,11:34:17 PM,Delayed Sleep,3,7:09:51 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,10,7,8,10,10,233.5,453.59,2,5.63,2.37,1,11:14:00 PM,Delayed Sleep,3,6:47:51 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,United States,8,7,6,8,6,236.32,322.05,1,4.07,2.02,1,2:01:51 AM,Poor Sleep Time,4,7:24:09 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United States,3,8,4,8,9,237.78,536.22,2,0.0,0.0,0,10:09:51 PM,Regular Sleep,2,7:05:51 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,5,9,7,9,10,244.77,631.23,3,0.0,0.0,0,10:10:09 PM,Regular Sleep,2,8:41:26 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,France,6,10,4,2,5,245.69,349.59,1,8.34,2.89,1,1:01:17 AM,Poor Sleep Time,4,9:34:09 AM,Poor Wakeup,4
+35 - 44,1.0,Female,2.0,United States,10,9,10,6,5,252.83,464.35,2,2.35,1.53,1,11:37:51 PM,Delayed Sleep,3,7:22:17 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,7,6,7,9,9,254.64,482.13,2,5.52,2.35,1,1:23:17 AM,Poor Sleep Time,4,9:25:43 AM,Poor Wakeup,4
+35 - 44,1.0,Female,2.0,Canada,3,7,8,10,10,257.37,530.17,2,19.02,4.36,1,11:51:17 PM,Delayed Sleep,3,8:41:34 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,France,7,6,8,3,5,258.28,486.32,2,1.94,1.39,1,12:19:26 AM,Poor Sleep Time,4,8:26:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United Kingdom,10,10,9,5,10,262.53,615.26,3,0.11,0.33,1,10:50:00 PM,Regular Sleep,2,9:05:00 AM,Poor Wakeup,4
+25 - 34,1.0,Female,2.0,United States,6,4,3,9,6,264.02,317.36,1,1.28,1.13,1,2:47:26 AM,Poor Sleep Time,4,8:04:43 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,United States,7,4,6,9,6,264.78,462.64,2,4.98,2.23,1,10:33:26 PM,Regular Sleep,2,6:16:00 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,India,3,8,4,7,8,266.25,433.05,2,0.41,0.64,1,11:14:34 PM,Delayed Sleep,3,6:28:00 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,Canada,6,10,9,6,6,268.93,428.59,2,3.83,1.96,1,12:00:51 AM,Poor Sleep Time,4,7:09:34 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Canada,10,10,6,2,8,270.24,369.59,1,0.95,0.97,1,1:15:00 AM,Poor Sleep Time,4,7:24:26 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,Australia,6,6,5,8,6,270.26,460.85,2,8.46,2.91,1,12:25:51 AM,Poor Sleep Time,4,8:06:51 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United States,5,9,5,7,8,270.76,439.43,2,2.56,1.6,1,11:56:09 PM,Delayed Sleep,3,7:15:43 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Sweden,8,7,7,3,7,274.57,550.51,3,0.0,0.0,0,9:58:43 PM,Early Sleep,1,7:09:00 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Australia,8,4,4,6,5,277.94,501.13,2,0.31,0.56,1,11:47:51 PM,Delayed Sleep,3,8:09:09 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United States,5,8,7,10,2,277.94,552.87,3,2.88,1.7,1,11:59:26 PM,Delayed Sleep,3,9:12:17 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,India,6,5,3,6,6,280.6,389.8,1,13.88,3.73,1,12:59:51 AM,Poor Sleep Time,4,7:29:34 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Brazil,4,8,4,8,5,282.49,480.48,2,2.78,1.67,1,11:40:51 PM,Delayed Sleep,3,7:41:43 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,2,8,6,8,8,284.44,258.36,1,4.59,2.14,1,2:03:34 AM,Poor Sleep Time,4,6:22:00 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,Canada,9,6,6,4,7,285.97,596.45,3,24.1,4.91,1,11:55:09 PM,Delayed Sleep,3,9:51:43 AM,Poor Wakeup,4
+25 - 34,1.0,Female,2.0,United States,5,6,5,9,7,286.51,502.75,2,4.41,2.1,1,11:42:51 PM,Delayed Sleep,3,8:05:51 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,Netherlands,7,7,8,10,10,298.42,546.24,3,2.03,1.42,1,11:10:00 PM,Delayed Sleep,3,8:16:34 AM,Delayed Wakeup,3
+Rather not say,3.0,Female,2.0,United Kingdom,7,8,6,10,7,299.65,625.66,3,0.0,0.0,0,9:13:43 PM,Early Sleep,1,7:39:17 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,7,8,6,9,10,301.43,450.21,2,4.83,2.2,1,11:24:34 PM,Delayed Sleep,3,6:55:00 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,United States,4,9,3,7,10,303.42,478.43,2,1.88,1.37,1,11:39:00 PM,Delayed Sleep,3,7:37:34 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United Kingdom,2,5,6,10,9,304.94,528.26,2,0.0,0.0,0,11:36:43 PM,Delayed Sleep,3,8:25:00 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,Canada,9,6,8,3,7,305.99,538.26,2,6.73,2.59,1,11:52:17 PM,Delayed Sleep,3,8:50:51 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United States,3,5,8,8,10,311.07,490.84,2,1.84,1.36,1,10:41:09 PM,Regular Sleep,2,6:52:09 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,India,7,8,5,8,9,311.17,311.7,1,10.38,3.22,1,2:13:51 AM,Poor Sleep Time,4,7:25:26 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United Kingdom,8,7,3,10,8,311.62,463.99,2,0.87,0.93,1,2:06:17 AM,Poor Sleep Time,4,9:50:00 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,Germany,7,2,8,10,7,312.01,484.69,2,0.0,0.0,0,9:50:34 PM,Early Sleep,1,5:55:26 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,United States,3,7,6,9,4,314.87,422.79,2,11.68,3.42,1,12:27:26 AM,Poor Sleep Time,4,7:30:26 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United States,4,7,6,7,9,317.66,463.69,2,5.81,2.41,1,11:47:17 PM,Delayed Sleep,3,7:31:17 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,United States,2,7,6,6,8,317.73,443.79,2,19.52,4.42,1,10:32:43 PM,Regular Sleep,2,5:56:43 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,Canada,4,4,10,8,3,318.46,582.03,3,0.0,0.0,0,9:56:26 PM,Early Sleep,1,7:38:34 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,France,5,5,10,9,10,318.99,435.72,2,0.29,0.54,1,11:36:34 PM,Delayed Sleep,3,6:52:34 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,United Kingdom,5,5,7,6,5,320.16,460.39,2,9.14,3.02,1,12:46:17 AM,Poor Sleep Time,4,8:26:51 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United Kingdom,4,6,10,3,10,320.93,455.53,2,2.77,1.66,1,11:39:26 PM,Delayed Sleep,3,7:15:09 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Germany,10,9,6,10,7,322.41,453.45,2,1.68,1.3,1,11:22:17 PM,Delayed Sleep,3,6:55:51 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,India,3,7,3,9,10,326.14,399.28,1,0.0,0.0,0,10:42:51 PM,Regular Sleep,2,10:05:17 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,United States,5,6,5,5,6,327.3,536.31,2,6.11,2.47,1,11:19:51 PM,Delayed Sleep,3,8:16:26 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United States,6,9,5,8,9,328.15,507.36,2,6.73,2.59,1,11:05:00 PM,Delayed Sleep,3,7:32:34 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,France,3,8,4,5,5,328.47,404.34,1,2.59,1.61,1,12:06:09 AM,Poor Sleep Time,4,6:50:43 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,United States,5,6,7,6,8,333.7,449.24,2,18.41,4.29,1,11:53:17 PM,Delayed Sleep,3,7:22:34 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Netherlands,7,8,5,4,9,333.96,507.29,2,6.84,2.62,1,10:35:43 PM,Regular Sleep,2,7:03:09 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,France,5,5,6,2,3,337.89,443.15,2,0.0,0.0,0,11:54:17 PM,Delayed Sleep,3,7:17:34 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,India,6,9,5,7,9,338.57,444.5,2,21.54,4.64,1,12:50:17 AM,Poor Sleep Time,4,8:06:34 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,United States,10,6,6,9,10,343.7,468.39,2,0.0,0.0,0,10:43:26 PM,Regular Sleep,2,6:31:51 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,Netherlands,10,8,6,8,6,344.0,494.74,2,13.72,3.7,1,11:52:43 PM,Delayed Sleep,3,8:07:43 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United States,8,7,5,9,9,348.77,413.07,1,0.36,0.6,1,12:34:17 AM,Poor Sleep Time,4,7:28:00 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,8,8,2,10,8,349.04,535.54,2,11.86,3.44,1,11:20:43 PM,Delayed Sleep,3,8:16:17 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,Brazil,3,9,5,4,10,350.75,456.1,2,8.23,2.87,1,12:23:26 AM,Poor Sleep Time,4,7:59:26 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,5,8,6,6,10,357.04,437.17,2,11.06,3.33,1,12:12:43 AM,Poor Sleep Time,4,7:30:09 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,Germany,7,5,7,9,8,363.63,335.7,1,0.05,0.22,1,2:14:51 AM,Poor Sleep Time,4,7:51:09 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,Brazil,3,6,5,7,8,369.63,488.59,2,6.32,2.51,1,12:22:17 AM,Poor Sleep Time,4,8:31:09 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United States,4,10,8,7,10,370.63,377.73,1,3.3,1.82,1,2:08:43 AM,Poor Sleep Time,4,8:26:17 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United States,4,7,7,10,9,372.1,509.2,2,0.5,0.71,1,11:43:17 PM,Delayed Sleep,3,8:12:26 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,United States,3,5,6,7,9,372.84,558.45,3,2.57,1.6,1,11:29:43 PM,Delayed Sleep,3,8:48:00 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,United States,5,7,4,7,9,376.2,404.94,1,14.7,3.83,1,1:17:43 AM,Poor Sleep Time,4,8:03:09 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United Kingdom,10,8,7,7,10,387.02,425.35,2,0.0,0.0,0,10:52:09 PM,Regular Sleep,2,5:57:09 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,Germany,4,8,3,7,5,391.28,410.03,1,5.94,2.44,1,3:07:51 AM,Poor Sleep Time,4,9:57:43 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,Brazil,5,7,7,8,8,391.31,489.46,2,5.74,2.4,1,12:01:43 AM,Poor Sleep Time,4,8:11:17 AM,Delayed Wakeup,3
+25 - 34,1.0,Female,2.0,United States,6,9,8,7,8,391.41,543.79,3,13.19,3.63,1,12:26:00 AM,Poor Sleep Time,4,9:29:43 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,Australia,6,6,4,7,6,398.57,466.59,2,0.0,0.0,0,10:03:17 PM,Regular Sleep,2,5:49:51 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,United States,8,4,9,7,10,399.91,441.09,2,6.79,2.61,1,2:47:34 AM,Poor Sleep Time,4,10:09:00 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,France,4,8,6,9,9,400.38,484.73,2,11.53,3.4,1,12:43:26 AM,Poor Sleep Time,4,8:48:17 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,United States,7,9,10,10,10,402.37,501.99,2,0.0,0.0,0,10:11:43 PM,Regular Sleep,2,6:33:34 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,United States,6,5,7,8,10,412.62,513.08,2,10.87,3.3,1,11:47:17 PM,Delayed Sleep,3,8:20:26 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,Brazil,9,9,10,5,7,424.81,562.67,3,0.0,0.0,0,11:13:26 PM,Delayed Sleep,3,8:36:09 AM,Delayed Wakeup,3
+35 - 44,1.0,Female,2.0,United Kingdom,6,8,8,8,7,436.88,490.21,2,9.38,3.06,1,11:20:43 PM,Delayed Sleep,3,7:31:09 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,Canada,4,6,5,9,3,445.48,537.39,2,13.25,3.64,1,11:28:09 PM,Delayed Sleep,3,8:14:09 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,Netherlands,4,7,7,9,9,451.88,376.85,1,4.49,2.12,1,12:33:00 AM,Poor Sleep Time,4,7:59:51 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,United States,8,9,10,10,9,458.17,456.45,2,32.55,5.71,1,12:18:34 AM,Poor Sleep Time,4,7:55:09 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,France,5,7,4,8,9,473.16,411.92,1,0.0,0.0,0,3:09:00 AM,Poor Sleep Time,4,10:00:51 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,India,6,6,5,6,8,473.75,430.89,2,0.17,0.41,1,3:26:43 AM,Poor Sleep Time,4,10:37:34 AM,Poor Wakeup,4
+35 - 44,1.0,Female,2.0,Brazil,6,5,4,9,7,490.46,363.03,1,1.47,1.21,1,12:21:43 AM,Poor Sleep Time,4,6:25:09 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,Australia,3,7,5,8,5,490.79,499.12,2,6.26,2.5,1,12:22:26 AM,Poor Sleep Time,4,8:41:43 AM,Delayed Wakeup,3
+15 - 24,0.0,Female,2.0,Germany,4,8,7,3,9,492.55,491.45,2,0.0,0.0,0,11:30:51 PM,Delayed Sleep,3,7:42:09 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United States,8,4,6,9,10,496.83,413.92,1,14.4,3.79,1,12:17:43 AM,Poor Sleep Time,4,7:11:43 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,United States,5,9,3,7,8,503.58,465.87,2,5.87,2.42,1,12:04:43 AM,Poor Sleep Time,4,7:50:51 AM,Regular Wakeup,2
+35 - 44,1.0,Female,2.0,United Kingdom,3,8,6,9,10,507.1,416.1,1,16.39,4.05,1,12:08:26 AM,Poor Sleep Time,4,7:04:43 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United States,6,4,6,9,6,507.34,385.13,1,6.72,2.59,1,11:02:34 PM,Delayed Sleep,3,5:27:51 AM,Early Wakup,1
+35 - 44,1.0,Female,2.0,United States,9,9,6,4,7,510.95,337.23,1,23.62,4.86,1,1:43:26 AM,Poor Sleep Time,4,7:20:34 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Canada,5,7,4,9,5,513.91,372.7,1,19.7,4.44,1,3:04:43 AM,Poor Sleep Time,4,9:17:26 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,Sweden,4,8,6,8,10,514.7,524.11,2,3.7,1.92,1,11:06:26 PM,Delayed Sleep,3,7:50:26 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,United States,7,7,9,4,9,518.4,376.69,1,4.63,2.15,1,12:16:26 AM,Poor Sleep Time,4,6:32:51 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,Netherlands,5,8,8,5,10,558.27,492.03,2,5.61,2.37,1,1:31:43 AM,Poor Sleep Time,4,9:44:00 AM,Poor Wakeup,4
+45 - 54,1.0,Female,2.0,United States,6,10,6,8,9,563.47,296.82,1,5.23,2.29,1,1:00:43 AM,Poor Sleep Time,4,5:57:26 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,Brazil,6,8,5,6,7,564.29,389.95,1,7.58,2.75,1,2:38:17 AM,Poor Sleep Time,4,9:08:26 AM,Poor Wakeup,4
+25 - 34,1.0,Female,2.0,United States,6,10,9,8,6,592.41,485.85,2,4.71,2.17,1,11:18:51 PM,Delayed Sleep,3,7:24:43 AM,Regular Wakeup,2
+25 - 34,1.0,Female,2.0,Brazil,9,5,6,10,6,592.81,247.19,1,10.51,3.24,1,2:34:51 AM,Poor Sleep Time,4,6:41:51 AM,Early Wakup,1
+25 - 34,1.0,Female,2.0,Brazil,6,3,4,7,7,594.79,431.38,2,22.0,4.69,1,12:28:26 AM,Poor Sleep Time,4,7:39:34 AM,Regular Wakeup,2
+15 - 24,0.0,Female,2.0,India,6,2,3,6,7,640.91,319.32,1,3.29,1.81,1,3:46:00 AM,Poor Sleep Time,4,9:05:00 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,United States,3,6,3,9,4,648.4,416.24,1,4.59,2.14,1,2:31:00 AM,Poor Sleep Time,4,9:27:26 AM,Poor Wakeup,4
+25 - 34,1.0,Female,2.0,United States,4,7,6,9,6,663.99,393.43,1,16.1,4.01,1,11:52:17 PM,Delayed Sleep,3,6:26:00 AM,Early Wakup,1
+15 - 24,0.0,Female,2.0,India,6,7,5,6,10,759.93,444.03,2,19.31,4.39,1,1:37:26 AM,Poor Sleep Time,4,9:01:34 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,France,5,3,4,4,10,819.08,468.76,2,7.83,2.8,1,1:38:26 AM,Poor Sleep Time,4,9:27:26 AM,Poor Wakeup,4
+15 - 24,0.0,Female,2.0,United States,3,7,4,10,8,866.64,384.62,1,33.68,5.8,1,12:36:17 AM,Poor Sleep Time,4,7:01:00 AM,Regular Wakeup,2
+15 - 24,0.0,Other,3.0,United States,3,8,5,10,10,297.31,462.09,2,31.0,5.57,1,12:00:43 AM,Poor Sleep Time,4,7:43:00 AM,Regular Wakeup,2
+15 - 24,0.0,Other,3.0,Germany,8,9,2,6,7,421.64,500.8,2,31.89,5.65,1,1:06:00 AM,Poor Sleep Time,4,9:27:00 AM,Poor Wakeup,4
+15 - 24,0.0,Other,3.0,Netherlands,6,8,4,10,8,555.31,405.36,1,18.29,4.28,1,12:59:17 AM,Poor Sleep Time,4,7:44:34 AM,Regular Wakeup,2
+15 - 24,0.0,Other,3.0,France,2,5,2,8,6,652.4,562.78,3,9.15,3.02,1,12:18:00 AM,Poor Sleep Time,4,9:40:51 AM,Poor Wakeup,4
+25 - 34,1.0,Rather not say,4.0,Netherlands,7,6,6,8,9,180.07,521.49,2,9.4,3.07,1,10:47:17 PM,Regular Sleep,2,7:28:51 AM,Regular Wakeup,2
+15 - 24,0.0,Other,3.0,United States,10,9,5,5,10,132.45,566.12,3,0.16,0.4,1,12:06:17 AM,Poor Sleep Time,4,9:32:17 AM,Poor Wakeup,4
+35 - 44,1.0,Other,3.0,United States,9,7,6,6,6,274.87,483.55,2,0.0,0.0,0,10:46:00 PM,Regular Sleep,2,6:49:34 AM,Early Wakup,1
+15 - 24,0.0,Rather not say,4.0,France,6,6,7,3,10,388.47,524.43,2,7.89,2.81,1,1:02:17 AM,Poor Sleep Time,4,9:47:09 AM,Poor Wakeup,4

@@ -2,7 +2,9 @@
 DATA ANALYSIS
 ============================================================
 
->>> Loading Dataset...
+>>> Loading Datasets...
+
+--- EDA SECTION (Using Original Dataset) ---
 Loaded: 269 rows × 22 columns
 
 ==================================================
@@ -16,7 +18,23 @@ Categorical columns (7): ['Age', 'Gender', 'Country', 'SleepingTimeAverageWeekly
 Missing values: 39
 Duplicate rows: 0
 
->>> Running EDA...
+--- CORRELATION SECTION (Using Clean Dataset) ---
+Loaded: 258 rows × 22 columns
+
+==================================================
+DATASET INFO
+==================================================
+Shape: 258 rows × 22 columns
+
+Numeric columns (15): ['Age_Coded_Bin', 'Gender_Coded', 'Extraversion', 'Agreeableness', 'Conscientiousness', 'Neuroticism', 'Openness', 'UsageOfAppsAvg', 'SleepDurationMinutesAvg', 'SDurC', 'SDist', 'SDist_SQRT', 'SDistC', 'STime', 'WTime']
+Categorical columns (7): ['Age', 'Gender', 'Country', 'SleepingTimeAverageWeekly', 'SleepingTimeWeeklyCategory', 'WakeupTimeWeeklyAverage', 'WakeupTimeWeeklyCategory']
+
+Missing values: 0
+Duplicate rows: 0
+
+==================================================
+EDA (Original Dataset)
+==================================================
 
 Summary Statistics:
        Age_Coded_Bin  Gender_Coded  Extraversion  ...  SDistC   STime   WTime
@@ -163,6 +181,81 @@ Regular Wakeup               99       36.80
 Delayed Wakeup               72       26.77
 Early Wakup                  52       19.33
 Poor Wakeup                  46       17.10
+
+==================================================
+CORRELATION ANALYSIS (Clean Dataset)
+==================================================
+
+Correlation Matrix:
+                         Age_Coded_Bin  Gender_Coded  ...  STime  WTime
+Age_Coded_Bin                     1.00         -0.04  ...  -0.22  -0.24
+Gender_Coded                     -0.04          1.00  ...   0.02   0.06
+Extraversion                      0.15          0.04  ...  -0.07  -0.04
+Agreeableness                     0.01          0.16  ...  -0.02  -0.02
+Conscientiousness                 0.18         -0.12  ...  -0.25  -0.14
+Neuroticism                      -0.03          0.21  ...   0.05  -0.06
+Openness                         -0.12          0.17  ...  -0.02   0.03
+UsageOfAppsAvg                   -0.17          0.11  ...   0.40   0.01
+SleepDurationMinutesAvg           0.05          0.07  ...  -0.57   0.27
+SDurC                             0.03          0.05  ...  -0.51   0.18
+SDist                            -0.05          0.06  ...   0.38   0.15
+SDist_SQRT                       -0.05          0.03  ...   0.48   0.18
+SDistC                           -0.07         -0.01  ...   0.53   0.16
+STime                            -0.22          0.02  ...   1.00   0.31
+WTime                            -0.24          0.06  ...   0.31   1.00
+
+[15 rows x 15 columns]
+
+Key Correlations with SleepDurationMinutesAvg:
+SDurC                0.873
+WTime                0.270
+Conscientiousness    0.264
+Agreeableness        0.144
+Openness             0.091
+Gender_Coded         0.067
+Age_Coded_Bin        0.051
+Extraversion         0.029
+Neuroticism         -0.112
+SDist               -0.146
+SDist_SQRT          -0.202
+SDistC              -0.224
+UsageOfAppsAvg      -0.438
+STime               -0.569
+Name: SleepDurationMinutesAvg, dtype: float64
+
+Key Correlations with UsageOfAppsAvg:
+STime                      0.396
+SDist                      0.344
+SDist_SQRT                 0.327
+Neuroticism                0.198
+SDistC                     0.139
+Gender_Coded               0.108
+WTime                      0.011
+Openness                   0.002
+Agreeableness             -0.122
+Extraversion              -0.159
+Age_Coded_Bin             -0.172
+Conscientiousness         -0.301
+SDurC                     -0.390
+SleepDurationMinutesAvg   -0.438
+Name: UsageOfAppsAvg, dtype: float64
+
+Key Correlations with Neuroticism:
+Gender_Coded               0.211
+UsageOfAppsAvg             0.198
+SDist                      0.100
+SDist_SQRT                 0.086
+STime                      0.055
+Openness                   0.052
+SDistC                     0.047
+Age_Coded_Bin             -0.031
+WTime                     -0.059
+Agreeableness             -0.064
+SDurC                     -0.104
+SleepDurationMinutesAvg   -0.112
+Extraversion              -0.196
+Conscientiousness         -0.263
+Name: Neuroticism, dtype: float64
 
 >>> Generating Visualizations...
   Saved: distributions.png
