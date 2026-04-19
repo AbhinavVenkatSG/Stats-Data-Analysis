@@ -3,5 +3,6 @@
 from .dataset import Dataset
 from .eda import EDA
 from .visualizer import Visualizer
+from .analysis import Analysis
 
-__all__ = ['Dataset', 'EDA', 'Visualizer']
+__all__ = ['Dataset', 'EDA', 'Visualizer', 'Analysis']

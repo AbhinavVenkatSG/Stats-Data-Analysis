@@ -1,11 +1,13 @@
 ============================================================
-DATA ANALYSIS
+SCREEN TIME ANALYSIS
 ============================================================
 
->>> Loading Datasets...
+============================================================
+PART 1: DESCRIPTIVE STATS (Original Dataset)
+============================================================
 
---- EDA SECTION (Using Original Dataset) ---
-Loaded: 269 rows × 22 columns
+>>> Loading Original Dataset (269 rows)...
+Loaded: original dataset - 269 rows × 22 columns
 
 ==================================================
 DATASET INFO
@@ -18,25 +20,7 @@ Categorical columns (7): ['Age', 'Gender', 'Country', 'SleepingTimeAverageWeekly
 Missing values: 39
 Duplicate rows: 0
 
---- CORRELATION SECTION (Using Clean Dataset) ---
-Loaded: 258 rows × 22 columns
-
-==================================================
-DATASET INFO
-==================================================
-Shape: 258 rows × 22 columns
-
-Numeric columns (15): ['Age_Coded_Bin', 'Gender_Coded', 'Extraversion', 'Agreeableness', 'Conscientiousness', 'Neuroticism', 'Openness', 'UsageOfAppsAvg', 'SleepDurationMinutesAvg', 'SDurC', 'SDist', 'SDist_SQRT', 'SDistC', 'STime', 'WTime']
-Categorical columns (7): ['Age', 'Gender', 'Country', 'SleepingTimeAverageWeekly', 'SleepingTimeWeeklyCategory', 'WakeupTimeWeeklyAverage', 'WakeupTimeWeeklyCategory']
-
-Missing values: 0
-Duplicate rows: 0
-
-==================================================
-EDA (Original Dataset)
-==================================================
-
-Summary Statistics:
+>>> Summary Statistics:
        Age_Coded_Bin  Gender_Coded  Extraversion  ...  SDistC   STime   WTime
 count         263.00        251.00        269.00  ...  269.00  269.00  269.00
 mean            0.55          1.59          5.92  ...    0.82    3.16    2.42
@@ -136,16 +120,16 @@ Sweden              5        1.86
                            count  percentage
 SleepingTimeAverageWeekly                   
 11:51:17 PM                    3        1.12
-1:01:17 AM                     2        0.74
-10:56:43 PM                    2        0.74
-12:34:17 AM                    2        0.74
-11:23:00 PM                    2        0.74
+12:22:17 AM                    2        0.74
+11:57:00 PM                    2        0.74
+11:47:17 PM                    2        0.74
+10:47:17 PM                    2        0.74
 ...                          ...         ...
-12:46:17 AM                    1        0.37
-11:19:51 PM                    1        0.37
-11:54:17 PM                    1        0.37
-12:00:09 AM                    1        0.37
-2:18:09 AM                     1        0.37
+11:47:26 PM                    1        0.37
+10:40:17 PM                    1        0.37
+10:37:17 PM                    1        0.37
+12:14:51 AM                    1        0.37
+12:36:26 AM                    1        0.37
 
 [252 rows x 2 columns]
 
@@ -161,16 +145,16 @@ Early Sleep                    14        5.20
                          count  percentage
 WakeupTimeWeeklyAverage                   
 7:42:09 AM                   3        1.12
-7:48:43 AM                   2        0.74
-8:22:43 AM                   2        0.74
 7:51:09 AM                   2        0.74
+9:05:00 AM                   2        0.74
+7:48:43 AM                   2        0.74
 7:59:26 AM                   2        0.74
 ...                        ...         ...
-9:02:00 AM                   1        0.37
-7:39:17 AM                   1        0.37
-6:41:51 AM                   1        0.37
-8:16:17 AM                   1        0.37
-8:03:00 AM                   1        0.37
+5:24:43 AM                   1        0.37
+7:58:51 AM                   1        0.37
+7:51:43 AM                   1        0.37
+9:14:09 AM                   1        0.37
+5:35:43 AM                   1        0.37
 
 [248 rows x 2 columns]
 
@@ -182,87 +166,158 @@ Delayed Wakeup               72       26.77
 Early Wakup                  52       19.33
 Poor Wakeup                  46       17.10
 
-==================================================
-CORRELATION ANALYSIS (Clean Dataset)
-==================================================
-
-Correlation Matrix:
-                         Age_Coded_Bin  Gender_Coded  ...  STime  WTime
-Age_Coded_Bin                     1.00         -0.04  ...  -0.22  -0.24
-Gender_Coded                     -0.04          1.00  ...   0.02   0.06
-Extraversion                      0.15          0.04  ...  -0.07  -0.04
-Agreeableness                     0.01          0.16  ...  -0.02  -0.02
-Conscientiousness                 0.18         -0.12  ...  -0.25  -0.14
-Neuroticism                      -0.03          0.21  ...   0.05  -0.06
-Openness                         -0.12          0.17  ...  -0.02   0.03
-UsageOfAppsAvg                   -0.17          0.11  ...   0.40   0.01
-SleepDurationMinutesAvg           0.05          0.07  ...  -0.57   0.27
-SDurC                             0.03          0.05  ...  -0.51   0.18
-SDist                            -0.05          0.06  ...   0.38   0.15
-SDist_SQRT                       -0.05          0.03  ...   0.48   0.18
-SDistC                           -0.07         -0.01  ...   0.53   0.16
-STime                            -0.22          0.02  ...   1.00   0.31
-WTime                            -0.24          0.06  ...   0.31   1.00
-
-[15 rows x 15 columns]
-
-Key Correlations with SleepDurationMinutesAvg:
-SDurC                0.873
-WTime                0.270
-Conscientiousness    0.264
-Agreeableness        0.144
-Openness             0.091
-Gender_Coded         0.067
-Age_Coded_Bin        0.051
-Extraversion         0.029
-Neuroticism         -0.112
-SDist               -0.146
-SDist_SQRT          -0.202
-SDistC              -0.224
-UsageOfAppsAvg      -0.438
-STime               -0.569
-Name: SleepDurationMinutesAvg, dtype: float64
-
-Key Correlations with UsageOfAppsAvg:
-STime                      0.396
-SDist                      0.344
-SDist_SQRT                 0.327
-Neuroticism                0.198
-SDistC                     0.139
-Gender_Coded               0.108
-WTime                      0.011
-Openness                   0.002
-Agreeableness             -0.122
-Extraversion              -0.159
-Age_Coded_Bin             -0.172
-Conscientiousness         -0.301
-SDurC                     -0.390
-SleepDurationMinutesAvg   -0.438
-Name: UsageOfAppsAvg, dtype: float64
-
-Key Correlations with Neuroticism:
-Gender_Coded               0.211
-UsageOfAppsAvg             0.198
-SDist                      0.100
-SDist_SQRT                 0.086
-STime                      0.055
-Openness                   0.052
-SDistC                     0.047
-Age_Coded_Bin             -0.031
-WTime                     -0.059
-Agreeableness             -0.064
-SDurC                     -0.104
-SleepDurationMinutesAvg   -0.112
-Extraversion              -0.196
-Conscientiousness         -0.263
-Name: Neuroticism, dtype: float64
-
 >>> Generating Visualizations...
   Saved: distributions.png
   Saved: boxplots.png
 
 ============================================================
-ANALYSIS COMPLETE!
-Output saved to: output
-Report saved to: output\analysis_report.txt
+PART 2: RELATION ANALYSES (Cleaned Dataset)
 ============================================================
+
+>>> Loading Cleaned Dataset (258 rows)...
+Loaded: cleaned dataset - 258 rows × 22 columns
+
+>>> Generating Relation Visualizations...
+  Saved: scatter_usage_sleep.png
+  Saved: threshold_plot.png
+  Saved: boxplot_by_category.png
+  Saved: heatmap_correlations.png
+  Saved: grouped_bar_personality.png
+  Saved: interaction_plots.png
+  Saved: bar_by_country.png
+
+--------------------------------------------------
+BIG QUESTION 1: Screen Time & Sleep Quality
+--------------------------------------------------
+
+>>> Q1.1: Correlation (UsageOfAppsAvg vs SleepDurationMinutesAvg)
+   Spearman rho = -0.4266, p = 0.0000
+   Significant: True, Interpretation: moderate
+
+>>> Q1.2a: Correlation (UsageOfAppsAvg vs STime)
+   Spearman rho = 0.4043, p = 0.0000
+   Significant: True
+
+>>> Q1.2b: Correlation (UsageOfAppsAvg vs WTime)
+   Spearman rho = 0.0096, p = 0.8775
+   Significant: False
+
+>>> Q1.2c: Correlation (UsageOfAppsAvg vs SDist)
+   Spearman rho = 0.3009, p = 0.0000
+   Significant: True
+
+>>> Q1.3: Logistic Regression (Usage -> SDistC)
+   Coefficient = 0.0028, Odds Ratio = 1.0028
+   p-value = 0.0277, Significant: True
+   Pseudo R² = 0.0227
+
+>>> Q1.4: Multiple Regression (SDur ~ STime + WTime + SDist)
+           coefficient  p_value  std_coef
+Intercept     567.4183   0.0000   12.2643
+STime         -60.3979   0.0000    3.8442
+WTime          36.7221   0.0000    3.3110
+SDist           0.6604   0.1844    0.4962
+
+--------------------------------------------------
+BIG QUESTION 2: Screen Time & Personality
+--------------------------------------------------
+
+>>> Q2.1-Q2.5: Correlations (UsageOfAppsAvg vs Big Five)
+            trait     rho      p_value  significant direction
+     Extraversion -0.1341 3.123752e-02         True  negative
+    Agreeableness -0.0783 2.103093e-01        False  negative
+Conscientiousness -0.3012 8.274248e-07         True  negative
+      Neuroticism  0.2060 8.727118e-04         True  positive
+         Openness -0.0036 9.544302e-01        False  negative
+
+>>> Q2.6a: Regression (SDur ~ Usage + All Big Five)
+   R² = 0.2291, Adjusted R² = 0.2106
+   F-statistic = 12.43, p = 0.0000
+   Significant predictors: ['Intercept', 'UsageOfAppsAvg', 'Conscientiousness']
+
+>>> Q2.7: Regression (BFI_Average ~ UsageOfAppsAvg)
+   Coefficient = -0.0009, p = 0.0204
+   R² = 0.0208, Significant: True
+
+--------------------------------------------------
+BIG QUESTION 3: Moderation Analysis
+--------------------------------------------------
+
+>>> Q3.1: Interaction (Age moderates Usage-Sleep)
+   Interaction coefficient = -0.1109
+   p-value = 0.0456, Significant: True
+
+>>> Q3.2: Interaction (Gender moderates Usage-Sleep)
+   Interaction coefficient = 0.1033
+   p-value = 0.0290, Significant: True
+
+>>> Q3.3: Logistic (Usage -> Poor Sleep)
+   Odds ratio = 1.0056, p = 0.0000
+   Significant: True
+
+>>> Q3.4: ANOVA (Personality by High/Low Usage)
+            trait  f_statistic  p_value  significant  high_mean  low_mean
+     Extraversion       7.0094   0.0086         True       5.53      6.25
+    Agreeableness       0.9857   0.3217        False       6.72      6.95
+Conscientiousness      12.8985   0.0004         True       5.87      6.69
+      Neuroticism       9.6433   0.0021         True       7.10      6.23
+         Openness       0.2563   0.6131        False       7.60      7.47
+
+>>> Q3.5: ANOVA (Usage by Country)
+   F-statistic = 2.6305, p = 0.0064
+   Significant: True
+
+--------------------------------------------------
+NEWLY IMPLEMENTED: Threshold & Mediation Analyses
+--------------------------------------------------
+
+>>> Q1.1a: Threshold Detection (Breakpoint Analysis)
+   Threshold (breakpoint): 10h 23m per day
+   Mean sleep before threshold: 7h 51m
+   Mean sleep after threshold: 6h 39m
+   Slope before threshold: -0.2358 (p=0.0000)
+   Slope after threshold: -0.2983 (p=0.3209)
+
+>>> Q1.4: Mediation (Personality -> Screen -> Sleep)
+
+   Conscientiousness:
+      Total effect: 10.4425 (p=0.0000)
+      Indirect (a*b): 4.6897
+      Direct: 5.7528
+      Proportion mediated: 44.9%
+      Interpretation: Partial mediation - both direct and indirect effects present
+
+   Neuroticism:
+      Total effect: -3.6437 (p=0.0726)
+      Indirect (a*b): -2.7846
+      Direct: -0.8591
+      Proportion mediated: 76.4%
+      Interpretation: Partial mediation - both direct and indirect effects present
+
+>>> Q2.6: Chain Mediation (Usage -> Sleep -> Personality)
+
+   Conscientiousness:
+      Total effect: -0.0037 (p=0.0000)
+      Indirect via sleep: -0.0009
+      Direct: -0.0028
+      Interpretation: No mediation - sleep does not explain the usage-personality relationship
+
+   Neuroticism:
+      Total effect: 0.0029 (p=0.0014)
+      Indirect via sleep: 0.0002
+      Direct: 0.0027
+      Interpretation: No mediation - sleep does not explain the usage-personality relationship
+
+   Extraversion:
+      Total effect: -0.0023 (p=0.0107)
+      Indirect via sleep: 0.0003
+      Direct: -0.0026
+      Interpretation: No mediation - sleep does not explain the usage-personality relationship
+
+============================================================
+ANALYSIS COMPLETE!
+============================================================
+Descriptive stats (Original): 269 rows
+Relation analyses (Cleaned): 258 rows
+Output folder: output
+Report: output\analysis_report.txt

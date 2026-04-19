@@ -10,21 +10,48 @@ from pathlib import Path
 class Dataset:
     """Handles data loading and access operations."""
     
-    def __init__(self, path: str):
+    def __init__(self, data_dir: str = None, use_cleaned: bool = False):
         """
-        Initialize Dataset with path to CSV file.
+        Initialize Dataset with path to data directory.
         
         Args:
-            path: Path to the CSV data file
+            data_dir: Path to the Data directory (optional, defaults to project Data folder)
+            use_cleaned: If True, load cleaned dataset; if False, load original
         """
-        self.path = Path(path)
+        if data_dir is None:
+            data_dir = Path(__file__).parent.parent / 'Data'
+        
+        self.data_dir = Path(data_dir)
         self._df = None
-        self._load()
+        self._source = None
+        self._load(use_cleaned=use_cleaned)
     
-    def _load(self):
+    def _load(self, use_cleaned: bool):
         """Load data from CSV file."""
-        self._df = pd.read_csv(self.path)
-        print(f"Loaded: {self._df.shape[0]:,} rows × {self._df.shape[1]} columns")
+        if use_cleaned:
+            filepath = self.data_dir / 'Cleaned_Dataset.csv'
+            self._source = 'cleaned'
+        else:
+            filepath = self.data_dir / 'Dataset In Sheets - Full Dataset.csv'
+            self._source = 'original'
+        
+        self._df = pd.read_csv(filepath)
+        print(f"Loaded: {self._source} dataset - {self._df.shape[0]:,} rows × {self._df.shape[1]} columns")
+    
+    @property
+    def source(self) -> str:
+        """Return which dataset is currently loaded ('original' or 'cleaned')."""
+        return self._source
+    
+    def use_cleaned(self):
+        """Switch to cleaned dataset."""
+        self._load(use_cleaned=True)
+        return self
+    
+    def use_original(self):
+        """Switch to original dataset."""
+        self._load(use_cleaned=False)
+        return self
     
     @property
     def df(self) -> pd.DataFrame:
